@@ -23,4 +23,8 @@ class RazeCore {
         
         return UIColor(red: 0, green: 0, blue: 0, alpha: alpha)
     }
+    
+    static var rareColor: UIColor {
+        return RazeCore.colorFromHexString("FCFFFD")
+    }
 }
